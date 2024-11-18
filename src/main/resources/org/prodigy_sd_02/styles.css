@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Set a background color for the whole application */
+.root {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Style for the GridPane */
+.grid-pane {
+    -fx-background-color: white; /* White background for the grid */
+    -fx-padding: 20; /* Add padding around the grid */
+    -fx-border-color: #cccccc; /* Light gray border */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-background-radius: 10; /* Rounded corners */
+}
+
+
+/* Style for Buttons */
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-background-radius: 5; /* Rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0.0, 0, 1); /* Shadow effect */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for TextField */
+.text-field {
+    -fx-border-color: #cccccc; /* Light gray border */
+    -fx-background-color: white; /* White background */
+    -fx-padding: 10; /* Padding */
+    -fx-font-size: 16px; /* Font size */
+}
+
+/* Style for ComboBox */
+.combo-box {
+    -fx-font-size: 16px; /* Font size */
+}
